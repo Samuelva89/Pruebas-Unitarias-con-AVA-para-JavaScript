@@ -1,0 +1,25 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "Este proyecto demuestra cómo implementar pruebas unitarias en JavaScript utilizando AVA.",
+  "main": "src/suma.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "test/**/*"
+    ],
+    "verbose": true
+  },
+  "devDependencies": {
+    "ava": "^4.3.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}
